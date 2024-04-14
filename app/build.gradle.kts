@@ -28,7 +28,7 @@ android {
     }
 
     buildFeatures{
-        dataBinding = true
+        viewBinding = true
     }
 
     compileOptions {
@@ -47,7 +47,14 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation (libs.androidx.lifecycle.viewmodel.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation (libs.sdp.android)
+    implementation (libs.ssp.android)
+
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+    implementation (libs.logging.interceptor)
 }
