@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="toolBar_title_color">#EFBE0E</color>
+
+    <color name="bottom_navigation_color">#F8F8F8</color>
+    <color name="bottom_navigation_items_color">#949494</color>
+
+    <color name="circular_progress_indicator_color">#FAA057</color>
+    <color name="circular_progress_track_color">#A8FAA057</color>
+
+    <color name="circular_progress_indicator2_color">#9013FE</color>
+    <color name="circular_progress_track2_color">#7E9013FE</color>
 </resources>

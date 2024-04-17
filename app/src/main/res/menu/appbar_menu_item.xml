@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/notifications"
+        android:title="@string/notification"
+        android:icon="@drawable/notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/badge"
+        android:icon="@drawable/badge"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/message"
+        android:title="@string/message"
+        android:icon="@drawable/message"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,5 +1,70 @@
 <resources>
-    <string name="app_name">DemoTwo</string>
+    <string name="app_name">Dietsnap</string>
     <string name="press_again_to_exit">Press again to exit</string>
     <string name="no_internet">No internet connection</string>
+
+    <string name="notification">Notification</string>
+    <string name="badge">Badge</string>
+    <string name="message">Message</string>
+
+    <string name="activity">Activity</string>
+    <string name="goals">Goals</string>
+    <string name="camera">Camera</string>
+    <string name="feed">Feed</string>
+    <string name="profile">Profile</string>
+
+    <string name="today">Today</string>
+    <string name="date_time">Date Time</string>
+    <string name="set_goal">SET Goal!</string>
+    <string name="diet_pts">Diet Pts</string>
+    <string name="exercise_pts">Exercise Pts</string>
+    <string name="calories_burned">Calories Burned</string>
+    <string name="workout_duration">Workout Duration</string>
+    <string name="reps">Reps</string>
+    <string name="cal">00</string>
+    <string name="time">00</string>
+    <string name="reps_score">00</string>
+
+    <string name="your_goals">Your Goals</string>
+    <string name="keto_weight_loss_plan">Keto Weight loss plan</string>
+    <string name="current_major_goal">Current Major Goal</string>
+
+    <string name="explore">Explore</string>
+    <string name="find_diets">Find Diets</string>
+    <string name="find_premade_diets_according_to_your_cuisine">Find premade diets according to your cuisine</string>
+    <string name="find_nutritionist">Find Nutritionist</string>
+    <string name="get_customized_diets_to_achieve_your_health_goal">Get customized diets to achieve your health goal</string>
+
+    <string name="back">Back</string>
+    <string name="food_information">Food Information</string>
+    <string name="food_name">Food Name</string>
+
+    <string name="food_rating">00</string>
+    <string name="out_of">Out of 100</string>
+
+    <string name="description">Description</string>
+    <string name="food_description">Food Description</string>
+
+    <string name="macro_nutrients">Macro Nutrients</string>
+    <string name="macro_nutrients_list">Macro Nutrients List</string>
+    <string name="nutrients">Nutrients</string>
+    <string name="per_serve">Per Serve</string>
+    <string name="energy">Energy</string>
+    <string name="protein">Protein</string>
+    <string name="trans_fat">Trans Fat</string>
+    <string name="saturated_fat">Saturated Fat</string>
+    <string name="carbohydrates">Carbohydrates</string>
+    <string name="fiber">Fiber</string>
+
+    <string name="facts">Facts</string>
+    <string name="fact1">Fact</string>
+    <string name="fact2">Fact2</string>
+    <string name="fact3">Fact3</string>
+    <string name="fact4">Fact4</string>
+    <string name="fact5">Fact5</string>
+
+    <string name="similar_items">Similar Items</string>
+    <string name="veg_biryani">Veg Biryani</string>
+    <string name="mutton_biryani">Mutton Biryani</string>
+    <string name="paneer_biryani">Paneer Biryani</string>
 </resources>

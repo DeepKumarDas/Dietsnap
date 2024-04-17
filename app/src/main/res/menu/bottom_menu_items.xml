@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/activity"
+        android:icon="@drawable/activity" />
+
+    <item
+        android:id="@+id/goals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/goals"
+        android:icon="@drawable/goals" />
+
+    <item
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/camera"
+        android:icon="@drawable/camera"/>
+
+    <item
+        android:id="@+id/feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/feed"
+        android:icon="@drawable/feed" />
+
+    <item
+        android:id="@+id/Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/profile"
+        android:icon="@drawable/profile"/>
+</menu>
