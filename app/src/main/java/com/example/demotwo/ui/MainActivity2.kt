@@ -1,7 +1,6 @@
 package com.example.demotwo.ui
 
 import android.os.Bundle
-import android.view.View
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -15,8 +14,6 @@ import com.example.demotwo.databinding.ActivityMainBinding
 import com.example.demotwo.model.ResponseEvent
 import com.example.demotwo.ui.food_info.model.Data
 import com.example.demotwo.ui.food_info.model.FoodInfoResponse
-import com.example.demotwo.ui.home.model.HomePageData
-import com.example.demotwo.ui.home.model.HomePageResponse
 import com.example.demotwo.ui.view_model.DataViewModel
 import com.example.demotwo.ui.view_model.VMFactory
 import com.example.demotwo.utilities.Utilities
@@ -43,13 +40,13 @@ class MainActivity2 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        //enableEdgeToEdge()
         setContentView(R.layout.activity_main2)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+        /*ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }
+        }*/
 
         foodName = findViewById(R.id.food_name)
         foodRating = findViewById(R.id.food_rating)
