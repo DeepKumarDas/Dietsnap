@@ -85,6 +85,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /*onResume checking for internet*/
     override fun onResume() {
         super.onResume()
         if (checkForInternet(this)){
