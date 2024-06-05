@@ -95,6 +95,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /*Setting ui if Internet on*/
     private fun setUIViews() {
         if (checkForInternet(this)){
             homePageScrollview.visibility = View.VISIBLE
